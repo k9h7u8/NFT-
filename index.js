@@ -2,7 +2,7 @@ const express = require('express');
 const sss = require('shamirs-secret-sharing');
 const app = express();
 
-const mongoDB = require('./database');
+const mongoDB = require('./config/database');
 const formModel = require('./model/form');
 
 app.use(express.json());
